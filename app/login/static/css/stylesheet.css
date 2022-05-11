@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    background-color: rgb(243, 247, 239);
+}
+
+main{
+    display: flex;
+    padding: 4.8rem 10rem;
+    gap: 9%;
+}
+
+img{
+    width: 50%;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+h1{
+    margin: 20px 0 ;
+}
+
+
+button{
+    max-width: 100px;
+}
+
+.BigScreen{
+    max-width: 80%;
+}
+
+.SmallScreen{
+    max-width: 60%;
+    margin: 0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    opacity: 0.5;
+}
+
+.extraSmall{
+    font-size:xx-small;
+    opacity: 0.75;
+    margin-top: 5px;
+}
